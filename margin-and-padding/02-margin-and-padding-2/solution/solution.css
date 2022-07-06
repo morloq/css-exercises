@@ -47,7 +47,7 @@ We separated it out here to make it extra clear what has changed. */
 
 .content {
   margin-bottom: 8px;
-  padding: 16px 8px;
+  padding: 16px 16px 8px 8px;
 }
 
 .button-container {
@@ -57,6 +57,6 @@ We separated it out here to make it extra clear what has changed. */
 
 button {
   display: block;
-  margin: 0 auto;
+  margin: auto auto;/*center button vertically*/
   padding: 8px 24px;
 }
