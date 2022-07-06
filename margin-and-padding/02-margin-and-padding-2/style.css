@@ -40,7 +40,7 @@ button {
 
   display: block;/*this way html does not need to be changed*/
   padding: 8px 24px;
-  margin: auto auto;/*center button vertically*/
+  margin: auto auto;/*center button horizontally*/
 }
 
 button:hover {
