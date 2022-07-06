@@ -24,3 +24,27 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/*my solution*/
+
+.header {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.flexbox {
+  margin-top:32px;
+  display:flex;
+  width:200px;
+  justify-content: center;
+  gap:52px;
+}
+
+.one .two .three .four {
+  display:flex;
+}
+
+.text {
+  text-align:center;
+}
