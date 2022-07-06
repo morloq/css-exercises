@@ -7,15 +7,15 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 32px;/*has 32px between text and border -> padding*/
+  margin: 12px;/*has 12px between it and any other element*/
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 48px;/*48px gap between div 2 and 3*/
 }
 
 .three {
@@ -23,6 +23,7 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 32px;/*has 32px between text and border -> padding*/
+  margin-left: auto;/*margin from two used,
+  margin-left can be set to auto, no pixel hardcoring*/
 }
