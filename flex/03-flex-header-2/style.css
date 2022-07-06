@@ -12,6 +12,22 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  
+  display:flex;/*outer container*/
+  justify-content: space-between;
+  padding: 8px;
+}
+
+/*divided in left and right parts, these are the areas that are meant to be unchanged*/
+.right-side {
+  display:flex;
+  align-items: center;
+  gap:15px;/*gap between notificatinons button and profile pic*/
+}
+
+.left-side{
+  display:flex;
+  align-items: center;
 }
 
 .profile-image {
@@ -27,6 +43,8 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+
+  padding-right:15px;/*added distance between logo and links*/
 }
 
 button {
@@ -45,4 +63,9 @@ a {
 
 ul {
   list-style-type: none;
+
+  display:flex;
+  gap:10px;/*space between links*/
+  margin:0;
+  padding:0;
 }
