@@ -51,6 +51,8 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+
+  margin-bottom:20px;
 }
 
 button.continue {
@@ -63,4 +65,29 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/*Solution*/
+.header {
+  display:flex;
+  margin:15px;
+  margin-left:0px;
+  margin-bottom:5px;
+  align-items:bottom;
+  justify-content: space-between;
+  font-size: large;
+  font-weight:bold;
+}
+
+.modal {
+  display:flex;
+}
+
+.otherContainer {
+  padding:10px;
+}
+
+.text {
+  margin-bottom:15px;
+  margin-right: 15px;
 }
