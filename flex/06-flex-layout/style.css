@@ -16,6 +16,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  padding:7px;
 }
 
 input {
@@ -24,4 +26,64 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+
+/*solution*/
+/*get rid of bullet points*/
+ul {
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+/*styling links*/
+a:link {
+  text-decoration:none;
+  color:dimgray;
+}
+a:visited{
+  text-decoration:none;
+  color:dimgray;
+}
+a:hover{
+  text-decoration:none;
+}
+a:active{
+  text-decoration:none;
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #eeeeee;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding:10px;
+}
+
+.left-links{
+  display:flex;
+  gap:15px;
+}
+
+.right-links{
+  display:flex;
+  gap:15px;
+}
+body {
+  display:flex;
+  flex-direction: column;
+}
+
+.content {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
 }
